@@ -1,0 +1,20 @@
+
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Add a Book</title>
+		<meta name="description" content="form to add new books">
+		<meta name="author" content="Mark Tyers">
+	</head>
+	<body>
+		<h1>Add a Book</h1>
+		<form action="/add" method="post">
+			<p>Book Title:<br /><input type="text" name="title" placeholder="book title" value="" autofocus></p>
+			<p>ISBN13:<br /><input type="number" name="isbn" placeholder="ISBN13 number" value="" maxlength="13" autocomplete="off"></p>
+			<p>Description:<br /><textarea name="description"></textarea></p>
+			<p><input type="submit" value="Add"></p>
+		</form>
+	</body>
+</html>

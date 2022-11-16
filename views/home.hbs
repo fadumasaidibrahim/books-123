@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Favourite Books</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<h1>{{title}}</h1>
+	</header>
+	<p>The following books will help you in this module:</p>
+	<ul>
+	{{#each books}}
+	<li>{{this.title}}</li>
+	{{/each}}
+	</ul>
+</body>
+</html>
